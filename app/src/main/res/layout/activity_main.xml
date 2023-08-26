@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/r">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="661dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="114dp"
+        android:layout_marginEnd="2dp"
+        android:background="@color/white">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="246dp"
+            android:layout_height="72dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="88dp"
+            android:layout_marginBottom="318dp"
+            android:backgroundTint="@color/black"
+            android:text="OCR"
+            android:textColor="@color/white"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="246dp"
+            android:layout_height="72dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="84dp"
+            android:layout_marginBottom="189dp"
+            android:backgroundTint="@color/black"
+            android:text="Translate"
+            android:textColor="@color/white"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="306dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="37dp"
+            android:layout_marginEnd="59dp"
+            android:background="@color/white"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Language"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="70sp">
+
+        </TextView>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

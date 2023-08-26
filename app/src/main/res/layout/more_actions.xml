@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".More_Actions"
+    android:background="@drawable/r">
+
+
+    <RelativeLayout
+        android:layout_width="395dp"
+        android:layout_height="87dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="779dp"
+        android:background="@color/black">
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/speech"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="convert"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="11dp"
+        android:backgroundTint="@color/black"
+        android:text="Speech"
+        android:textColor="@color/white" />
+
+    <ScrollView
+        android:id="@+id/scroll_holder"
+        android:layout_width="399dp"
+        android:layout_height="499dp"
+        android:layout_above="@+id/linear_holder"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="119dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="-1dp"
+        android:background="@color/white">
+
+        <EditText
+            android:id="@+id/edit_data1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#00FFFFFF"
+            android:hint="Enter text to be translated or Converted into Speech"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+    </ScrollView>
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/linear_holder"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginBottom="50sp">-->
+
+<!--&lt;!&ndash;        <Button&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/translate"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="0dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginStart="8dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginTop="8dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginEnd="8dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginBottom="8dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_weight="1"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:backgroundTint="@color/black"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="Translate"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textColor="@color/white" />&ndash;&gt;-->
+
+
+
+<!--    </LinearLayout>-->
+
+
+</RelativeLayout>
